@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Electric Spunk - Web Consulting"
+                    title="Apogee Media - Digital Media Consulting"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Apogee Media Digital Marketing Consulting' },
+                        { name: 'keywords', content: 'Apogee Media, Digial Marketing, Web Design, Applciation Development, E-Commerce Consulting, Web App Integrations' },
                     ]}
                 >
                 </Helmet>
@@ -38,8 +38,8 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Amp Pages</h3>
-                                <p>Embrace new age pages for your site</p>
+                                <h3>Cloud Integrations</h3>
+                                <p>Go serverless with your applications</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
@@ -52,7 +52,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Analytics Integrations</h3>
+                                <h3>Tracking and Integrations</h3>
                                 <p>Understand your audience</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
@@ -77,7 +77,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Why use ES</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p> We are an organization focused on bringing results and setting up everyone for success in the new age of advertising. There are many paths to take along the road of Digital Marketing. Apogee will take you further than you have ever gone before.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
