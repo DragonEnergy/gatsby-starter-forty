@@ -34,52 +34,52 @@ class HomeIndex extends React.Component {
                                 <h3>Web Design</h3>
                                 <p>Progressive Sites for the new Web</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#contact" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Cloud Integrations</h3>
                                 <p>Go serverless with your applications</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#contact" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Project Management</h3>
                                 <p>Coordinate your next move with us</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#contact" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Tracking and Integrations</h3>
                                 <p>Understand your audience</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#contact" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>E-Commerce Consulting</h3>
                                 <p>Find new aveneues for your business</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#contact" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Application Development</h3>
                                 <p>Tools to scale your ambitions</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#contact" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Why use ES</h2>
+                                <h2>Why use Apogee Media?</h2>
                             </header>
                             <p> We are an organization focused on bringing results and setting up everyone for success in the new age of advertising. There are many paths to take along the road of Digital Marketing. Apogee will take you further than you have ever gone before.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                {/* <li><Link to="/" className="button next">Get Started</Link></li> */}
                             </ul>
                         </div>
                     </section>

@@ -11,8 +11,8 @@ import pic10 from '../assets/images/pic10.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Landing Page" />
+            <title>Web Design - Apogee Media</title>
+            <meta name="Apogee Media Web Design" content="Web Design" />
         </Helmet>
 
         <BannerLanding />
@@ -28,7 +28,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/" className="image">
                         <img src={pic08} alt="" />
                     </Link>
                     <div className="content">
@@ -44,7 +44,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/" className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
@@ -60,7 +60,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/" className="image">
                         <img src={pic10} alt="" />
                     </Link>
                     <div className="content">
