@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            <section>
+            {/* <section>
                 <form name="contact" method="POST" data-netlify="true">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
@@ -22,7 +22,7 @@ const Contact = (props) => (
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
-            </section>
+            </section> */}
             <section className="split">
                 <section>
                     <div className="contact-method">
